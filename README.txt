@@ -22,3 +22,6 @@ uploads/repository/plugin-slug/plugin-slug.php
 uploads/repository/plugin-slug/plugin-slug.zip
 
 The script will compare the installed plugin version with the one provided in the plugin-slug.php
+
+To Do:
+- Username and license key are hardcoded for now, add options, licensing system?

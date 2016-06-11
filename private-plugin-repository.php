@@ -140,12 +140,12 @@ class Private_Plugin_Repository {
         $this->send_api_response( $response, 500 );
       }
 
-      if ( ! isset( $_POST['license_user'] ) || $_POST['license_user'] != 'culinariusat' ) {
+      if ( ! isset( $_POST['license_user'] ) || $_POST['license_user'] != '' ) {
         $response = new WP_Error( 'license_error', 'Please specify a user name.' );
         $this->send_api_response( $response, 500 );
       }
 
-      if ( ! isset( $_POST['license_key'] ) || $_POST['license_key'] != '93bpfs1a8vb5cel5ra9273sv0x4sd13c' ) {
+      if ( ! isset( $_POST['license_key'] ) || $_POST['license_key'] != '' ) {
         $response = new WP_Error( 'license_error', 'Please specify a valid license key.' );
         $this->send_api_response( $response, 500 );
       }
