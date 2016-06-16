@@ -23,5 +23,7 @@ uploads/repository/plugin-slug/plugin-slug.zip
 
 The script will compare the installed plugin version with the one provided in the plugin-slug.php
 
+Use this to compile plugin folders to the needed format: https://github.com/daniel-daga/private-plugin-repository-wrapper
+
 To Do:
 - Username and license key are hardcoded for now, add options, licensing system?
