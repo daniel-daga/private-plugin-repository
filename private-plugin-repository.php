@@ -140,7 +140,7 @@ class Private_Plugin_Repository {
         $this->send_api_response( $response, 500 );
       }
 
-      if ( ! isset( $_POST['license_user'] ) || $_POST['license_user'] != '' ) {
+      if ( ! isset( $_POST['license_user'] ) || $_POST['license_user'] == '' ) {
         $response = new WP_Error( 'license_error', 'Please specify a user name.' );
         $this->send_api_response( $response, 500 );
       }
